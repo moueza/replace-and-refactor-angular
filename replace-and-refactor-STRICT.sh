@@ -7,4 +7,7 @@ entry1=$1
 echo "dollar1=$entry1"
 #find .js  --exec
 
-sed -i 's/tests1/TEST1/g' test2.ts
+find . -exec sed -i 's/tests1/TEST1/g' test2.ts \;
+cat test2.ts
+cat test22.ts
+
