@@ -10,6 +10,9 @@ echo "entry1=$entry1"
 
 
 prefix=`echo $entry1| cut -c 1-1000`
+len=${#entry1}
+   echo "len=$len"
+
     echo "prefix=$prefix"
 
 
