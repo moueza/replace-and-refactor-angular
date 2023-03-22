@@ -9,10 +9,13 @@ entry1="test2."
 echo "entry1=$entry1"
 
 
-prefix=`echo $entry1| cut -c 1-1000`
 len=${#entry1}
-   echo "len=$len"
+echo "len=$len"
 
+lenm=len-1
+echo "lenm=$lenm"
+   
+prefix=`echo $entry1| cut -c 1-$lenm`
     echo "prefix=$prefix"
 
 
