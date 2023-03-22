@@ -5,7 +5,8 @@
 cd ~/POUB/replace-and-refactor-angular/TEST
 entry1=$1
 #entry1="test2."
-
+#args filetoreplaceprefix. fileprefixtarget
+  #to rename file.ts .html .ets .css
 echo "entry1=$entry1___"
 
 
@@ -21,7 +22,7 @@ prefix=`echo $entry1| cut -c 1-$lenm`
 
 #find .js  --exec
 
-find . -exec sed -i 's/tests1/TEST1/g' {} \;
+find . -exec sed -i 's/$prefix/$2/g' {} \;
 cat test2.ts
 echo "THEN"
 cat test22.ts
