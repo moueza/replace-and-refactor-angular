@@ -1,2 +1,2 @@
-depends on TEST1
-modifies  TEST1
+depends on test1
+modifies  test1
