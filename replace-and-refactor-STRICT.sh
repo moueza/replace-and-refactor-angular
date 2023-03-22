@@ -4,7 +4,7 @@
 #$1 must finish by dot for exact
 cd ~/POUB/replace-and-refactor-angular/TEST
 entry1=$1
-entry1="test2."
+#entry1="test2."
 
 echo "entry1=$entry1___"
 
@@ -26,7 +26,7 @@ cat test2.ts
 echo "THEN"
 cat test22.ts
 
-if [[ -z $entry1  ]]; then
+if [ -z "$entry1"  ]; then
     echo "eqNull"
 else
     echo "nonNull"
