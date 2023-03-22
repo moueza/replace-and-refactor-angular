@@ -12,7 +12,7 @@ echo "entry1=$entry1"
 len=${#entry1}
 echo "len=$len"
 
-lenm=$len-1
+lenm=$(($len-1)) #https://linuxhandbook.com/bash-convert-string-to-number/
 echo "lenm=$lenm"
    
 prefix=`echo $entry1| cut -c 1-$lenm`
