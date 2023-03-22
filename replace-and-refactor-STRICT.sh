@@ -9,5 +9,6 @@ echo "dollar1=$entry1"
 
 find . -exec sed -i 's/tests1/TEST1/g' test2.ts \;
 cat test2.ts
+echo "THEN"
 cat test22.ts
 
