@@ -26,7 +26,7 @@ cat test2.ts
 echo "THEN"
 cat test22.ts
 
-if [$entry1 -eq ""]; then #https://linuxconfig.org/bash-scripting-conditionals#:~:text=A%20conditional%20in%20Bash%20scripting,statement%20can%20also%20be%20helpful.
+if [ $entry1 -eq "" ]; then #https://linuxconfig.org/bash-scripting-conditionals#:~:text=A%20conditional%20in%20Bash%20scripting,statement%20can%20also%20be%20helpful.
     echo "eqNull"
 else
     echo "nonNull"
