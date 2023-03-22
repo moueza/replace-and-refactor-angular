@@ -1,2 +1,2 @@
-in 22 depends on tests1
-in 22 modifies  tests1
+in 22 depends on TEST1
+in 22 modifies  TEST1

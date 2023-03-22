@@ -6,7 +6,7 @@ cd ~/POUB/replace-and-refactor-angular/TEST
 entry1=$1
 entry1="test2."
 
-echo "entry1=$entry1"
+echo "entry1=$entry1___"
 
 
 len=${#entry1}
