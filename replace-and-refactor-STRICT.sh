@@ -9,7 +9,7 @@ entry1="test2."
 echo "entry1=$entry1"
 
 
-prefix = `echo $entry1| cut -c 2-1000`
+prefix=`echo $entry1| cut -c 2-1000`
     echo "prefix=$prefix"
 
 
